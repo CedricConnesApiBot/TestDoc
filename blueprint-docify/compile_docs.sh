@@ -59,5 +59,5 @@ git add $BRANCH
 echo "git commit -m "Update API documentation [skip ci][no-ci]""
 git commit -m "Update API documentation [skip ci][no-ci]"
 
-echo "git push git@github.com:Chozodia/TestDoc.git gh-pages"
-git push git@github.com:Chozodia/TestDoc.git gh-pages
+echo "git push git@github.com:CedricConnesApiBot/TestDoc.git gh-pages"
+git push git@github.com:CedricConnesApiBot/TestDoc.git gh-pages
