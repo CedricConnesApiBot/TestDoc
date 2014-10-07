@@ -5,7 +5,7 @@ var fs = require('fs');
 var aglio = require('aglio');
 
 var readApiBlueprint = function (callback) {
-  var apiFile = __dirname + '/../API.md';
+  var apiFile = __dirname + '/../apiary.apib';
   fs.readFile(apiFile, 'utf8', function (err, data) {
     if (callback && typeof (callback) === "function") {
       callback(data);
